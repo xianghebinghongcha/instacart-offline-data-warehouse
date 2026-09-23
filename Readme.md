@@ -34,15 +34,17 @@ Instacart 是一家在线杂货购物与配送平台。
 
 ## 3. 技术栈
 
-| 类型 | 技术 |
+| 类型 | 技术及版本 |
 |---|---|
-| 开发语言 | SQL、Shell、Python |
-| 数据仓库 | Apache Hive |
-| 计算引擎 | SparkSQL、MapReduce |
-| 存储系统 | HDFS |
-| 数据格式 | TextFile、ORC |
-| 数据调度 | Shell脚本 |
-| 开发环境 | Ubuntu + VMware |
+| 开发语言 | SQL（HiveQL，Hive 3.1.3）、Shell（Bash 5.1.16）、Python 3.12.11 |
+| 数据仓库 | Apache Hive 3.1.3 |
+| 计算引擎 | MapReduce（Apache Hadoop 3.3.6） |
+| 存储系统 | HDFS（Apache Hadoop 3.3.6） |
+| 数据格式 | TextFile、ORC（Hive 随附 ORC 库 1.5.8） |
+| 数据调度 | Shell 脚本（Bash 5.1.16） |
+| 开发环境 | Ubuntu 22.04.3 LTS |
+
+> 版本以当前开发机环境为准；Python 版本为当前 `python3` 的版本。SQL、TextFile 不单独标注软件版本，ORC 1.5.8 指 Hive 随附库版本。
 
 
 ## 4. 数据来源
